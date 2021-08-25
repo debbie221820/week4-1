@@ -1,10 +1,42 @@
----
-title: 門市據點
-layout: ./app/layout.ejs
-engine: ejs
-current: locate
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>門市據點</title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+<!-- 字型 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+  <header class="header">
+    <div class="headerBlock">
+      <div class="Logo">      
+      </div>
+      <nav class="headerNav">
+        <ul class="headerMenu">
+          <li class="headerItem"><a href="productOpcital.html" class="headerLink">系統鏡框</a></li>
+          <li class="headerItem"><a href="locate.html" class="headerLink">門市據點</a></li>
+          <li class="headerItem"><a href="blog.html" class="headerLink">部落格</a></li>
+          <li class="headerItem"><a href="faq.html" class="headerLink">常見問題 </a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+
+  </header>
+
+  
 
 <div class="locate">
     <div class="container">
@@ -173,3 +205,62 @@ current: locate
         </section>
     </div>
 </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footerBlock">
+        <nav class="footerNav">
+          <ul class="footerMenu">
+            <li><a href="index.html" class="footerLink">首頁</a></li>
+            <li><a href="productOpcital.html" class="footerLink">系統鏡框</a></li>
+            <li><a href="locate.html" class="footerLink">門市據點</a></li>
+            <li><a href="blog.html" class="footerLink">部落格</a></li>
+            <li><a href="faq.html" class="footerLink">常見問題</a></li>
+          </ul>
+          <ul class="footerContact">
+            <li>
+              <a href="tel:+886800-000-000" class="footerContactLink">
+                <img src="assets/images/icon-phone.svg" alt="phone" class="footerContactPic">0800-000-000
+              </a>
+            </li>
+            <li>
+              <a href="mailto:glasses@business.com" class="footerContactLink">
+                <img src="assets/images/icon-mail.svg" alt="mail" class="footerContactPic">glasses@business.com
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="social">
+          <ul class="socialMenu">
+            <li>
+              <a href="http://facebook.com.tw" class="socialLink">
+                <img src="assets/images/icon-fb.svg" alt="facebook" class="socialIcon">
+              </a>
+            </li>
+            <li>
+              <a href="http://instagram.com.tw" class="socialLink">
+                <img src="assets/images/icon-ig.svg" alt="instagram" class="socialIcon">
+              </a>
+            </li>
+            <li><a href="https://line.me/zh-hant/" class="socialLink">
+                <img src="assets/images/icon-line.svg" alt="line" class="socialIcon">
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="copyright privacy">
+        <p class="copyrightText">Copyright © 2020 Glasses.All rights reserved.</p>
+        <ul class="privacyMenu">
+          <li class="privacyItem"><a href="#" class="privacyLink">隱私權政策</a></li>
+          <li class="privacyItem"><a href="#" class="privacyLink">服務條款</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
