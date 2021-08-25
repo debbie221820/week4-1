@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.locate {
+  padding: 96px 0; }
+  @media (max-width: 992px) {
+    .locate {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      padding: 56px 0; } }
+  .locate .storeCard {
+    margin-bottom: 32px; }
+  .locate .locateTitle {
+    font-size: 64px;
+    color: #000000;
+    line-height: 72px;
+    font-weight: 700;
+    border-left: 8px solid #9f1213;
+    vertical-align: middle;
+    padding-left: 16px; }
+    @media (max-width: 992px) {
+      .locate .locateTitle {
+        font-size: 48px;
+        line-height: 72px;
+        border-left: 4px solid #9f1213; } }
+  .locate .locateArea {
+    margin: 65px 0 32px 0; }
+    @media (max-width: 992px) {
+      .locate .locateArea {
+        margin: 40px 0 12px 0; } }
+    @media (max-width: 768px) {
+      .locate .locateArea {
+        margin: 24px 0 9px 0; } }
+  .locate .areaSelect {
+    font-size: 36px;
+    line-height: 30px;
+    padding-right: 20px;
+    vertical-align: middle; }
+    @media (max-width: 992px) {
+      .locate .areaSelect {
+        font-size: 16px;
+        line-height: 24px; } }
+    @media (max-width: 768px) {
+      .locate .areaSelect {
+        font-size: 14px;
+        line-height: 24px; } }
+  .locate .area {
+    width: 30%;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 20px; }
+    @media (max-width: 768px) {
+      .locate .area {
+        height: 36px; } }
+  .locate .store {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto; }
+  .locate .storeCard {
+    width: 30.6%;
+    margin: 32px 15px; }
+    @media (max-width: 1140px) {
+      .locate .storeCard {
+        width: 46%; } }
+    @media (max-width: 992px) {
+      .locate .storeCard {
+        width: 46%;
+        margin: 20px 10px; } }
+    @media (max-width: 768px) {
+      .locate .storeCard {
+        margin: 16px 0;
+        width: 100%; } }
+  .locate .storePic {
+    height: 244px; }
+    @media (max-width: 992px) {
+      .locate .storePic {
+        height: 164px; } }
+  .locate .storePic-1 {
+    background: url(../images/locate1.jpeg) no-repeat center/cover; }
+  .locate .storePic-2 {
+    background: url(../images/locate2.jpg) no-repeat center/cover; }
+  .locate .storePic-3 {
+    background: url(../images/locate3.jpg) no-repeat center/cover; }
+  .locate .storePic-4 {
+    background: url(../images/locate4.jpg) no-repeat center/cover; }
+  .locate .storePic-5 {
+    background: url(../images/locate5.jpg) no-repeat center/cover; }
+  .locate .storeTitle {
+    font-size: 24px;
+    line-height: 36px;
+    padding: 12px 0;
+    border-bottom: 1px solid #000000; }
+    @media (max-width: 992px) {
+      .locate .storeTitle {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 8px 0; } }
+  .locate .storeContent {
+    padding-top: 12px; }
+  .locate .storeText {
+    font-size: 20px;
+    line-height: 30px; }
+    @media (max-width: 992px) {
+      .locate .storeText {
+        font-size: 14px;
+        line-height: 21px; } }
+  .locate .store-icons {
+    font-size: 24px;
+    width: 30x; }
+    @media (max-width: 992px) {
+      .locate .store-icons {
+        font-size: 14px;
+        line-height: 21px; } }
+
+.storeItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 12px 0;
+  font-size: 20px;
+  line-height: 30px; }
+  @media (max-width: 992px) {
+    .storeItem {
+      padding: 6px 0; } }
+
+.storeBtn {
+  padding: 20px 0;
+  font-size: 20px;
+  background: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  will-change: 100%;
+  display: block; }
+  @media (max-width: 992px) {
+    .storeBtn {
+      padding: 16px 0; } }
+
+/*# sourceMappingURL=locate.css.map */
