@@ -1,0 +1,29 @@
+$font-size-base:16px;
+
+$text-s: $font-size-base * 0.875; //14px
+$text-base: $font-size-base; 
+$text-m: $font-size-base * 1.25; //20px
+$text-l: $font-size-base * 1.5; //24px
+$text-2l: $font-size-base * 1.75; //28px
+$text-xl: $font-size-base * 2; //32px
+$text-2xl: $font-size-base * 2.25; //36px
+$text-3xl: $font-size-base * 2.625; //42px
+$text-4xl: $font-size-base * 3; //48px
+$text-5xl: $font-size-base * 4; //64px
+
+
+$black:#000000;
+$white:#ffffff;
+$gray-200:#DEE2E6;
+$gray-300:#00000029;
+$gray-400:#707070;
+$red-100:#FBF2F2; //$light
+$red-200:#AA0601; //$primary
+$red-300:#650300; //$secondray
+
+$primary:$red-200;
+$secondray:$red-300;
+$light: $red-100;
+$dark:$black;
+
+

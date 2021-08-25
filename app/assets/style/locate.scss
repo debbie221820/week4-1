@@ -1,0 +1,152 @@
+.locate {
+    padding: 96px 0;
+    @include pad {
+        justify-content: center;
+        padding: 56px 0;
+    }
+
+    // .locateBlock{}
+    .storeCard {
+        margin-bottom: 32px;
+    }
+    .locateTitle {
+        font-size: $text-5xl;
+        color: $dark;
+        line-height: 72px;
+        font-weight: 700;
+        border-left: 8px solid #9f1213;
+        vertical-align: middle;
+        padding-left: 16px;
+        @include pad {    font-size: $text-4xl;
+            line-height: 72px; border-left: 4px solid #9f1213;}
+    }
+    .locateArea {
+        margin: 65px 0 32px 0;
+        @include pad{  margin:40px 0 12px 0;}
+        @include mobile{ margin:24px 0 9px 0;}
+
+    }
+
+    .areaSelect {
+        font-size: $text-2xl;
+        line-height: 30px;
+        padding-right: 20px;
+        vertical-align: middle;
+        @include pad{      font-size: $text-base;
+            line-height: 24px;}
+            @include mobile{ font-size: $text-s;
+                line-height: 24px;}
+    }
+    .area {
+        width: 30%;
+        height: 45px;
+        padding: 0 20px;
+        font-size: $text-m;
+        @include mobile{height:36px;}
+    }
+    .store {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .storeCard {
+        width: 30.6%;
+        margin: 32px 15px;
+        @include pc {
+            width: 46%;
+        }
+
+        @include pad {
+            width: 46%;
+            margin: 20px 10px;
+        }
+        @include mobile {
+            margin:16px 0;
+            width: 100%;
+        }
+    }
+    .storePic {
+        height: 244px;
+        @include pad {
+            height: 164px;
+        }
+    }
+    .storePic-1 {
+        background: url(../images/locate1.jpeg) no-repeat center / cover;
+    }
+    .storePic-2 {
+        background: url(../images/locate2.jpg) no-repeat center / cover;
+    }
+    .storePic-3 {
+        background: url(../images/locate3.jpg) no-repeat center / cover;
+    }
+    .storePic-4 {
+        background: url(../images/locate4.jpg) no-repeat center / cover;
+    }
+    .storePic-5 {
+        background: url(../images/locate5.jpg) no-repeat center / cover;
+    }
+    .storeTitle {
+        font-size: $text-l;
+        line-height: 36px;
+        padding: 12px 0;
+        border-bottom: 1px solid $dark;
+        @include pad {
+            font-size: $text-base;
+        line-height: 24px;
+            padding: 8px 0;
+        }
+    }
+
+    .storeContent {
+        padding-top: 12px;
+    }
+
+    .storeText {
+        font-size: $text-m;
+        line-height: 30px;
+        @include pad {
+            font-size: $text-s;
+            line-height: 21px;
+        }
+        @include mobile {
+        }
+    }
+    .store-icons {
+        font-size: $text-l;
+        width: 30x;
+        @include pad {
+            font-size: $text-s;
+            line-height: 21px;
+        }
+        @include mobile {
+        } 
+    }
+}
+    .storeItem {
+        display: flex;
+        padding: 12px 0;
+        font-size: $text-m;
+        line-height: 30px;
+        @include pad {
+            padding:6px 0;
+        }
+        @include mobile {
+        }
+    }
+
+    .storeBtn {
+        padding: 20px 0;
+        font-size: $text-m;
+        background: $dark;
+        color: $white;
+        text-decoration: none;
+        text-align: center;
+        will-change: 100%;
+        display: block;
+        @include pad {
+            padding: 16px 0;
+        }
+    }
+
+
