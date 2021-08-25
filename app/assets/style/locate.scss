@@ -1,3 +1,9 @@
+@import "reset";
+@import "mixin.scss";
+@import "variable";
+
+
+
 .locate {
     padding: 96px 0;
     @include pad {
